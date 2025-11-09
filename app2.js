@@ -22,8 +22,10 @@ while(repetir)
         alert("Ingrese un numero valido")
     }
 
+    // Preguntamos si desea consultar otra tabla
     let respuesta = prompt("Desea consultar otra tabla ¿si o no?")
 
+    // Si la respuesta no es "sí", salimos del bucle
     if (respuesta !== "si" && respuesta !== "SI")
     {
         repetir = false;
